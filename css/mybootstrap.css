@@ -1,0 +1,94 @@
+body{
+    font-family: "Microsoft YaHei UI";
+}
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 8px 0 rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+    color: #029AAB;
+}
+.navbar-default .navbar-toggle{
+    margin-top: 20px;
+    background-color: #e1e1e1;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: #029AAB;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #005080;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+}
+/*home*/
+#home{
+    background: url("../image/home.jpg");
+    background-size: cover;
+    /*height:800px;*/
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    color: #ffffff;
+}
+.lvjing{
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+#home .pad{
+    padding: 90px 0;
+}
+#home h1 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    line-height: 30px;
+}
+#home img{
+    background-size: cover;
+    border-radius: 50%;
+    width: 66%;
+    /*height: 500px;*/
+    margin-top: 50px;
+    margin: 50px auto 0 auto;
+}
+/*bbs*/
+#bbs{
+    height: 500px;
+    width: 100%;
+    padding:80px 0;
+    text-align: center;
+}
+#bbs .col-md-4{
+    padding:30px;
+}
+#bbs .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+
+}
+#bbs a{
+    color: #000;
+    text-decoration: none;
+}
+#bbs .smallbranding{
+    font-size:30px;
+    background-color: #aaa;
+    color: #fff;
+    width:60px;
+    height:60px;
+    /*text-align: center;*/
+    padding: 15px 15px 18px 12px;
+    border-radius: 50%;
+}
