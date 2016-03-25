@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+<head>
+<!--做点修改-->
+    <meta charset="UTF-8">
+    <!--IE8开启标准渲染模式-->
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <!--IE8开启标准渲染模式-->
+    <!--配置视窗-->
+    <meta name="viewport" content="width=device-width, inicial-scale=1, user-scalable=no">
+    <!--配置视窗-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mybootstrap.css">
+    <title>麦子学院教程练习</title>
+</head>
+<body>
+    <!--导航-->
+    <!--navbar-fixed-top/bottom导航栏固定在上/下方-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!--容器分两种：container为固定宽度，container-fluid流媒体视窗 100%宽度-->
+        <div class="container">
+            <!--logo和小屏幕的导航按钮-->
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--navbar-brand图标-->
+                <a href="index.html" class="navbar-brand">Bootstrap</a>
+            </div>
+            <!--logo和小屏幕的导航按钮-->
+
+            <!--导航-->
+            <!--此处需要为导航按钮绑定data-toggle="collapse"和target属性来链接到下面导航-->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#bbs">论坛</a></li>
+                    <li><a href="index.html">前端开发</a></li>
+                    <li><a href="index.html">最新课程</a></li>
+                    <li><a href="index.html">移动APP</a></li>
+                    <li><a href="index.html">联系我们</a></li>
+                </ul>
+            </div>
+            <!--导航-->
+        </div>
+    </nav>
+    <!--导航-->
+    <!--首页-->
+    <section id="home" class="lvjing">
+        <div class="lvjing">
+            <div class="container pad">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <h1>Bootstrap麦子学院教程练习</h1>
+                        <p>yuanzi亲自编写，完全靠视频编码</p>
+                        <p>此次由yuanzi亲自编写，完全靠视频编码，不算抄袭！</p>
+                        <!--img-responsive添加图片自适应-->
+                        <img src="image/tree.jpg" class="img-responsive" alt="树">
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--首页-->
+    <!--论坛-->
+    <section id="bbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!--target="_blank"打开方式为新窗口打开-->
+                    <a href="#bbs">
+                        <span class="glyphicon glyphicon-backward smallbranding"></span>
+                        <h3>音乐快进</h3>
+                        <p>加速音乐进度</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#bbs">
+                        <span class="glyphicon glyphicon-backward smallbranding"></span>
+                        <h3>音乐快进</h3>
+                        <p>加速音乐进度</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#bbs">
+                        <span class="glyphicon glyphicon-backward smallbranding"></span>
+                        <h3>音乐快进</h3>
+                        <p>加速音乐进度</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--论坛-->
+
+
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
